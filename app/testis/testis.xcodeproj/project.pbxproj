@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47025A5226821E200007B7D0 /* BrickGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47025A5126821E200007B7D0 /* BrickGenerator.swift */; };
 		4767AC7B267F7DB20098BB86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4767AC7A267F7DB20098BB86 /* AppDelegate.swift */; };
 		4767AC81267F7DB20098BB86 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4767AC80267F7DB20098BB86 /* GameScene.swift */; };
 		4767AC83267F7DB20098BB86 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4767AC82267F7DB20098BB86 /* GameViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47025A5126821E200007B7D0 /* BrickGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickGenerator.swift; sourceTree = "<group>"; };
 		4767AC77267F7DB20098BB86 /* testis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4767AC7A267F7DB20098BB86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4767AC80267F7DB20098BB86 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 			children = (
 				4767ACAD267F80130098BB86 /* Background.swift */,
 				4767ACB2267F82500098BB86 /* Brick.swift */,
+				47025A5126821E200007B7D0 /* BrickGenerator.swift */,
 			);
 			path = Background;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				4767AC81267F7DB20098BB86 /* GameScene.swift in Sources */,
 				4767AC83267F7DB20098BB86 /* GameViewController.swift in Sources */,
 				4767AC7B267F7DB20098BB86 /* AppDelegate.swift in Sources */,
+				47025A5226821E200007B7D0 /* BrickGenerator.swift in Sources */,
 				4767ACAE267F80130098BB86 /* Background.swift in Sources */,
 				4767ACB0267F81460098BB86 /* Variables.swift in Sources */,
 				4767ACB3267F82500098BB86 /* Brick.swift in Sources */,
