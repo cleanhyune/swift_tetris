@@ -19,16 +19,16 @@ class BrickGenerator {
             let y = Int(item.y) + Variables.dy
             Variables.backArray[y][x] = 1
             
-            let xValue = x * brickValue.brickSize
-            let yValue = y * brickValue.brickSize
+            let xValue = x * brickValue.brickSize + Int(Variables.startPoint.x)
+            let yValue = y * brickValue.brickSize + Int(Variables.startPoint.y)
             
             let brick = SKSpriteNode()
             brick.color = brickValue.color
-            brick.size = CGSize(width: brickValue.brickSize, height: brickValue.brickSize)
+            brick.size = CGSize(width: brickValue.brickSize - 1, height: brickValue.brickSize - 1)
             brick.name = brickValue.brickName
             brick.zPosition = brickValue.zPosition
             print("x is \(xValue) and y is \(yValue)")
-            brick.position = CGPoint(x: xValue, y: yValue)
+            brick.position = CGPoint(x: xValue, y: -yValue)
             Variables.scene.addChild(brick)
         }
     }

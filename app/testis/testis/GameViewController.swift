@@ -17,7 +17,7 @@ class GameViewController: UIViewController {
         if let view = self.view as! SKView? {
             // Load the SKScene from 'GameScene.sks'
             let scene = GameScene(size: view.frame.size)
-            scene.anchorPoint = CGPoint(x: 0, y: 0)
+            scene.anchorPoint = CGPoint(x: 0, y: 1)
             
             view.presentScene(scene)
             view.ignoresSiblingOrder = true

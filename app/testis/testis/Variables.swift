@@ -16,4 +16,7 @@ struct Variables {
     static var dx = 4
     static var dy = 2
     
+    static var gap = 1
+    static var startPoint = CGPoint()
+    
 }
