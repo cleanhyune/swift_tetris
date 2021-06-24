@@ -18,6 +18,7 @@
 		4767ACAE267F80130098BB86 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4767ACAD267F80130098BB86 /* Background.swift */; };
 		4767ACB0267F81460098BB86 /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4767ACAF267F81460098BB86 /* Variables.swift */; };
 		4767ACB3267F82500098BB86 /* Brick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4767ACB2267F82500098BB86 /* Brick.swift */; };
+		47EB8EFA2684CDA800DA3F0E /* LeftButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EB8EF92684CDA800DA3F0E /* LeftButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		4767ACAD267F80130098BB86 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		4767ACAF267F81460098BB86 /* Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
 		4767ACB2267F82500098BB86 /* Brick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brick.swift; sourceTree = "<group>"; };
+		47EB8EF92684CDA800DA3F0E /* LeftButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		4767AC79267F7DB20098BB86 /* testis */ = {
 			isa = PBXGroup;
 			children = (
+				47EB8EF82684CD9A00DA3F0E /* functinos */,
 				4767ACAC267F80070098BB86 /* Background */,
 				4767ACAB267F7DDA0098BB86 /* view */,
 				4767AC7A267F7DB20098BB86 /* AppDelegate.swift */,
@@ -151,6 +154,14 @@
 				47025A5126821E200007B7D0 /* BrickGenerator.swift */,
 			);
 			path = Background;
+			sourceTree = "<group>";
+		};
+		47EB8EF82684CD9A00DA3F0E /* functinos */ = {
+			isa = PBXGroup;
+			children = (
+				47EB8EF92684CDA800DA3F0E /* LeftButton.swift */,
+			);
+			path = functinos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +295,7 @@
 			files = (
 				4767AC81267F7DB20098BB86 /* GameScene.swift in Sources */,
 				4767AC83267F7DB20098BB86 /* GameViewController.swift in Sources */,
+				47EB8EFA2684CDA800DA3F0E /* LeftButton.swift in Sources */,
 				4767AC7B267F7DB20098BB86 /* AppDelegate.swift in Sources */,
 				47025A5226821E200007B7D0 /* BrickGenerator.swift in Sources */,
 				4767ACAE267F80130098BB86 /* Background.swift in Sources */,

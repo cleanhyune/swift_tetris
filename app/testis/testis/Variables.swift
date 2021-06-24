@@ -19,4 +19,6 @@ struct Variables {
     static var gap = 1
     static var startPoint = CGPoint()
     
+    static var brickArrays = Array<CGPoint>()
+    
 }

@@ -10,11 +10,25 @@ import GameplayKit
 
 class GameScene: SKScene {
     
+    var leftBtn:LeftButton?
+    
     override func didMove(to view: SKView) {
         Variables.scene = self
-        let bg = Background()
-        let generator = BrickGenerator()
+        _ = Background()
+        _ = BrickGenerator()
+        leftBtn = LeftButton()
         self.viewBg()
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let touch = touches.first
+        let location = touch?.location(in: self)
+        let node = nodes(at: location!)
+        for item in node {
+            if item.name == "left" {
+                leftBtn?.birckMoveLeft()
+            }
+        }
     }
     
     func viewBg() {
