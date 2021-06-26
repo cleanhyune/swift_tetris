@@ -14,6 +14,7 @@ class BrickGenerator {
     
     init() {
         let brick = brickValue.points
+        Variables.brickNode.removeAll()
         Variables.brickArrays = brick
         for item in brick {
             let x = Int(item.x) + Variables.dx
@@ -29,6 +30,7 @@ class BrickGenerator {
             brick.name = brickValue.brickName
             brick.zPosition = brickValue.zPosition
             brick.position = CGPoint(x: xValue, y: -yValue)
+            Variables.brickNode.append(brick)
             Variables.scene.addChild(brick)
         }
     }

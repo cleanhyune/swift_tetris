@@ -18,6 +18,8 @@
 		4767ACAE267F80130098BB86 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4767ACAD267F80130098BB86 /* Background.swift */; };
 		4767ACB0267F81460098BB86 /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4767ACAF267F81460098BB86 /* Variables.swift */; };
 		4767ACB3267F82500098BB86 /* Brick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4767ACB2267F82500098BB86 /* Brick.swift */; };
+		47756D1C26874F25008E34BC /* RightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47756D1B26874F25008E34BC /* RightButton.swift */; };
+		47756D1E26875754008E34BC /* RotationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47756D1D26875754008E34BC /* RotationButton.swift */; };
 		47EB8EFA2684CDA800DA3F0E /* LeftButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EB8EF92684CDA800DA3F0E /* LeftButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +58,8 @@
 		4767ACAD267F80130098BB86 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		4767ACAF267F81460098BB86 /* Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
 		4767ACB2267F82500098BB86 /* Brick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brick.swift; sourceTree = "<group>"; };
+		47756D1B26874F25008E34BC /* RightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightButton.swift; sourceTree = "<group>"; };
+		47756D1D26875754008E34BC /* RotationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationButton.swift; sourceTree = "<group>"; };
 		47EB8EF92684CDA800DA3F0E /* LeftButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,6 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				47EB8EF92684CDA800DA3F0E /* LeftButton.swift */,
+				47756D1B26874F25008E34BC /* RightButton.swift */,
+				47756D1D26875754008E34BC /* RotationButton.swift */,
 			);
 			path = functinos;
 			sourceTree = "<group>";
@@ -298,7 +304,9 @@
 				47EB8EFA2684CDA800DA3F0E /* LeftButton.swift in Sources */,
 				4767AC7B267F7DB20098BB86 /* AppDelegate.swift in Sources */,
 				47025A5226821E200007B7D0 /* BrickGenerator.swift in Sources */,
+				47756D1C26874F25008E34BC /* RightButton.swift in Sources */,
 				4767ACAE267F80130098BB86 /* Background.swift in Sources */,
+				47756D1E26875754008E34BC /* RotationButton.swift in Sources */,
 				4767ACB0267F81460098BB86 /* Variables.swift in Sources */,
 				4767ACB3267F82500098BB86 /* Brick.swift in Sources */,
 			);
